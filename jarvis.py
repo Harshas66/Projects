@@ -73,11 +73,11 @@ if __name__ == "__main__":
             speak(f"Sir, the time is {strTime}")
 
         elif 'open code' in query:
-            codePath = "C:\\Users\\vikas\\Downloads\\Microsoft VS Code\\Code.exe"
+            codePath = "Add your path"
             os.startfile(codePath)
             speak("VS Code has been opened sir")
 
         elif 'open chrome' in query:
-            chromePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+            chromePath = "Add your path"
             os.startfile(chromePath)
             speak("Chrome has been opened sir")
